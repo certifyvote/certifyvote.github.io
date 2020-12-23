@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CFEBF4D2556D83300D5A094 /* Klocka WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0CFEBF4C2556D83300D5A094 /* Klocka WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0CFEBF522556D83400D5A094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CFEBF512556D83400D5A094 /* Assets.xcassets */; };
+		0CFEBF592556D83500D5A094 /* Klocka WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0CFEBF582556D83500D5A094 /* Klocka WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0CFEBF5E2556D83500D5A094 /* KlockaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFEBF5D2556D83500D5A094 /* KlockaApp.swift */; };
+		0CFEBF602556D83500D5A094 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFEBF5F2556D83500D5A094 /* ContentView.swift */; };
+		0CFEBF622556D83500D5A094 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFEBF612556D83500D5A094 /* NotificationController.swift */; };
+		0CFEBF642556D83500D5A094 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFEBF632556D83500D5A094 /* NotificationView.swift */; };
+		0CFEBF662556D83500D5A094 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFEBF652556D83500D5A094 /* ComplicationController.swift */; };
+		0CFEBF682556D83500D5A094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CFEBF672556D83500D5A094 /* Assets.xcassets */; };
+		0CFEBF6B2556D83500D5A094 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CFEBF6A2556D83500D5A094 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CFEBF4E2556D83300D5A094 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CFEBF422556D83200D5A094 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CFEBF4B2556D83300D5A094;
+			remoteInfo = "Klocka WatchKit App";
+		};
+		0CFEBF5A2556D83500D5A094 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CFEBF422556D83200D5A094 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CFEBF572556D83500D5A094;
+			remoteInfo = "Klocka WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0CFEBF732556D83500D5A094 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0CFEBF592556D83500D5A094 /* Klocka WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CFEBF772556D83500D5A094 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0CFEBF4D2556D83300D5A094 /* Klocka WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0CFEBF482556D83200D5A094 /* Klocka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Klocka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CFEBF4C2556D83300D5A094 /* Klocka WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Klocka WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CFEBF512556D83400D5A094 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CFEBF532556D83400D5A094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CFEBF582556D83500D5A094 /* Klocka WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Klocka WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CFEBF5D2556D83500D5A094 /* KlockaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlockaApp.swift; sourceTree = "<group>"; };
+		0CFEBF5F2556D83500D5A094 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0CFEBF612556D83500D5A094 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		0CFEBF632556D83500D5A094 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		0CFEBF652556D83500D5A094 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		0CFEBF672556D83500D5A094 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CFEBF6A2556D83500D5A094 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0CFEBF6C2556D83500D5A094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CFEBF6D2556D83500D5A094 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CFEBF552556D83500D5A094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CFEBF412556D83200D5A094 = {
+			isa = PBXGroup;
+			children = (
+				0CFEBF502556D83300D5A094 /* Klocka WatchKit App */,
+				0CFEBF5C2556D83500D5A094 /* Klocka WatchKit Extension */,
+				0CFEBF492556D83200D5A094 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CFEBF492556D83200D5A094 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CFEBF482556D83200D5A094 /* Klocka.app */,
+				0CFEBF4C2556D83300D5A094 /* Klocka WatchKit App.app */,
+				0CFEBF582556D83500D5A094 /* Klocka WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CFEBF502556D83300D5A094 /* Klocka WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				0CFEBF512556D83400D5A094 /* Assets.xcassets */,
+				0CFEBF532556D83400D5A094 /* Info.plist */,
+			);
+			path = "Klocka WatchKit App";
+			sourceTree = "<group>";
+		};
+		0CFEBF5C2556D83500D5A094 /* Klocka WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0CFEBF5D2556D83500D5A094 /* KlockaApp.swift */,
+				0CFEBF5F2556D83500D5A094 /* ContentView.swift */,
+				0CFEBF612556D83500D5A094 /* NotificationController.swift */,
+				0CFEBF632556D83500D5A094 /* NotificationView.swift */,
+				0CFEBF652556D83500D5A094 /* ComplicationController.swift */,
+				0CFEBF672556D83500D5A094 /* Assets.xcassets */,
+				0CFEBF6C2556D83500D5A094 /* Info.plist */,
+				0CFEBF6D2556D83500D5A094 /* PushNotificationPayload.apns */,
+				0CFEBF692556D83500D5A094 /* Preview Content */,
+			);
+			path = "Klocka WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		0CFEBF692556D83500D5A094 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0CFEBF6A2556D83500D5A094 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CFEBF472556D83200D5A094 /* Klocka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CFEBF782556D83500D5A094 /* Build configuration list for PBXNativeTarget "Klocka" */;
+			buildPhases = (
+				0CFEBF462556D83200D5A094 /* Resources */,
+				0CFEBF772556D83500D5A094 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CFEBF4F2556D83300D5A094 /* PBXTargetDependency */,
+			);
+			name = Klocka;
+			productName = Klocka;
+			productReference = 0CFEBF482556D83200D5A094 /* Klocka.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		0CFEBF4B2556D83300D5A094 /* Klocka WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CFEBF742556D83500D5A094 /* Build configuration list for PBXNativeTarget "Klocka WatchKit App" */;
+			buildPhases = (
+				0CFEBF4A2556D83300D5A094 /* Resources */,
+				0CFEBF732556D83500D5A094 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CFEBF5B2556D83500D5A094 /* PBXTargetDependency */,
+			);
+			name = "Klocka WatchKit App";
+			productName = "Klocka WatchKit App";
+			productReference = 0CFEBF4C2556D83300D5A094 /* Klocka WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		0CFEBF572556D83500D5A094 /* Klocka WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CFEBF702556D83500D5A094 /* Build configuration list for PBXNativeTarget "Klocka WatchKit Extension" */;
+			buildPhases = (
+				0CFEBF542556D83500D5A094 /* Sources */,
+				0CFEBF552556D83500D5A094 /* Frameworks */,
+				0CFEBF562556D83500D5A094 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Klocka WatchKit Extension";
+			productName = "Klocka WatchKit Extension";
+			productReference = 0CFEBF582556D83500D5A094 /* Klocka WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CFEBF422556D83200D5A094 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					0CFEBF472556D83200D5A094 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					0CFEBF4B2556D83300D5A094 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					0CFEBF572556D83500D5A094 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 0CFEBF452556D83200D5A094 /* Build configuration list for PBXProject "Klocka" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CFEBF412556D83200D5A094;
+			productRefGroup = 0CFEBF492556D83200D5A094 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CFEBF472556D83200D5A094 /* Klocka */,
+				0CFEBF4B2556D83300D5A094 /* Klocka WatchKit App */,
+				0CFEBF572556D83500D5A094 /* Klocka WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CFEBF462556D83200D5A094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CFEBF4A2556D83300D5A094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CFEBF522556D83400D5A094 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CFEBF562556D83500D5A094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CFEBF6B2556D83500D5A094 /* Preview Assets.xcassets in Resources */,
+				0CFEBF682556D83500D5A094 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CFEBF542556D83500D5A094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CFEBF622556D83500D5A094 /* NotificationController.swift in Sources */,
+				0CFEBF602556D83500D5A094 /* ContentView.swift in Sources */,
+				0CFEBF662556D83500D5A094 /* ComplicationController.swift in Sources */,
+				0CFEBF5E2556D83500D5A094 /* KlockaApp.swift in Sources */,
+				0CFEBF642556D83500D5A094 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CFEBF4F2556D83300D5A094 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CFEBF4B2556D83300D5A094 /* Klocka WatchKit App */;
+			targetProxy = 0CFEBF4E2556D83300D5A094 /* PBXContainerItemProxy */;
+		};
+		0CFEBF5B2556D83500D5A094 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CFEBF572556D83500D5A094 /* Klocka WatchKit Extension */;
+			targetProxy = 0CFEBF5A2556D83500D5A094 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CFEBF6E2556D83500D5A094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0CFEBF6F2556D83500D5A094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CFEBF712556D83500D5A094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Klocka WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 63UM45383T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Klocka WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.carechain.Klocka.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		0CFEBF722556D83500D5A094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Klocka WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 63UM45383T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Klocka WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.carechain.Klocka.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Release;
+		};
+		0CFEBF752556D83500D5A094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63UM45383T;
+				IBSC_MODULE = Klocka_WatchKit_Extension;
+				INFOPLIST_FILE = "Klocka WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = io.carechain.Klocka.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		0CFEBF762556D83500D5A094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63UM45383T;
+				IBSC_MODULE = Klocka_WatchKit_Extension;
+				INFOPLIST_FILE = "Klocka WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = io.carechain.Klocka.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Release;
+		};
+		0CFEBF792556D83500D5A094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63UM45383T;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.carechain.Klocka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0CFEBF7A2556D83500D5A094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63UM45383T;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.carechain.Klocka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CFEBF452556D83200D5A094 /* Build configuration list for PBXProject "Klocka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CFEBF6E2556D83500D5A094 /* Debug */,
+				0CFEBF6F2556D83500D5A094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CFEBF702556D83500D5A094 /* Build configuration list for PBXNativeTarget "Klocka WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CFEBF712556D83500D5A094 /* Debug */,
+				0CFEBF722556D83500D5A094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CFEBF742556D83500D5A094 /* Build configuration list for PBXNativeTarget "Klocka WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CFEBF752556D83500D5A094 /* Debug */,
+				0CFEBF762556D83500D5A094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CFEBF782556D83500D5A094 /* Build configuration list for PBXNativeTarget "Klocka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CFEBF792556D83500D5A094 /* Debug */,
+				0CFEBF7A2556D83500D5A094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CFEBF422556D83200D5A094 /* Project object */;
+}

@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CC5AA23255962BC00D95137 /* CareKitFHIR in Frameworks */ = {isa = PBXBuildFile; productRef = 0CC5AA22255962BC00D95137 /* CareKitFHIR */; };
+		0CC5AA25255962BC00D95137 /* CareKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0CC5AA24255962BC00D95137 /* CareKit */; };
+		0CC5AA27255962BC00D95137 /* CareKitStore in Frameworks */ = {isa = PBXBuildFile; productRef = 0CC5AA26255962BC00D95137 /* CareKitStore */; };
+		0CC5AA29255962BC00D95137 /* CareKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0CC5AA28255962BC00D95137 /* CareKitUI */; };
+		0CC5AA2F255962D400D95137 /* CareKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0CC5AA2E255962D400D95137 /* CareKit */; };
+		0CC5AA33255962D500D95137 /* CareKitStore in Frameworks */ = {isa = PBXBuildFile; productRef = 0CC5AA32255962D500D95137 /* CareKitStore */; };
+		0CC5AA35255962D500D95137 /* CareKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0CC5AA34255962D500D95137 /* CareKitUI */; };
+		0CEB7B9D255883AC0000196C /* SlaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEB7B9C255883AC0000196C /* SlaskApp.swift */; };
+		0CEB7B9F255883AC0000196C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEB7B9E255883AC0000196C /* ContentView.swift */; };
+		0CEB7BA1255883AE0000196C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CEB7BA0255883AE0000196C /* Assets.xcassets */; };
+		0CEB7BA4255883AE0000196C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CEB7BA3255883AE0000196C /* Preview Assets.xcassets */; };
+		0CEB7BA9255883AE0000196C /* Slask WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0CEB7BA8255883AE0000196C /* Slask WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0CEB7BAE255883AF0000196C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CEB7BAD255883AF0000196C /* Assets.xcassets */; };
+		0CEB7BB5255883AF0000196C /* Slask WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0CEB7BB4255883AF0000196C /* Slask WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0CEB7BBA255883AF0000196C /* SlaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEB7BB9255883AF0000196C /* SlaskApp.swift */; };
+		0CEB7BBC255883AF0000196C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEB7BBB255883AF0000196C /* ContentView.swift */; };
+		0CEB7BBE255883AF0000196C /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEB7BBD255883AF0000196C /* NotificationController.swift */; };
+		0CEB7BC0255883AF0000196C /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEB7BBF255883AF0000196C /* NotificationView.swift */; };
+		0CEB7BC2255883AF0000196C /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEB7BC1255883AF0000196C /* ComplicationController.swift */; };
+		0CEB7BC4255883B00000196C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CEB7BC3255883B00000196C /* Assets.xcassets */; };
+		0CEB7BC7255883B00000196C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CEB7BC6255883B00000196C /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CEB7BAA255883AE0000196C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CEB7B91255883AB0000196C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CEB7BA7255883AE0000196C;
+			remoteInfo = "Slask WatchKit App";
+		};
+		0CEB7BB6255883AF0000196C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CEB7B91255883AB0000196C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CEB7BB3255883AF0000196C;
+			remoteInfo = "Slask WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0CEB7BCF255883B00000196C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0CEB7BB5255883AF0000196C /* Slask WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CEB7BD3255883B00000196C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0CEB7BA9255883AE0000196C /* Slask WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0CEB7B99255883AC0000196C /* Slask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CEB7B9C255883AC0000196C /* SlaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlaskApp.swift; sourceTree = "<group>"; };
+		0CEB7B9E255883AC0000196C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0CEB7BA0255883AE0000196C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CEB7BA3255883AE0000196C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0CEB7BA5255883AE0000196C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CEB7BA8255883AE0000196C /* Slask WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slask WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CEB7BAD255883AF0000196C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CEB7BAF255883AF0000196C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CEB7BB4255883AF0000196C /* Slask WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Slask WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CEB7BB9255883AF0000196C /* SlaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlaskApp.swift; sourceTree = "<group>"; };
+		0CEB7BBB255883AF0000196C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0CEB7BBD255883AF0000196C /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		0CEB7BBF255883AF0000196C /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		0CEB7BC1255883AF0000196C /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		0CEB7BC3255883B00000196C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CEB7BC6255883B00000196C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0CEB7BC8255883B00000196C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CEB7BC9255883B00000196C /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CEB7B96255883AC0000196C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC5AA25255962BC00D95137 /* CareKit in Frameworks */,
+				0CC5AA23255962BC00D95137 /* CareKitFHIR in Frameworks */,
+				0CC5AA29255962BC00D95137 /* CareKitUI in Frameworks */,
+				0CC5AA27255962BC00D95137 /* CareKitStore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CEB7BB1255883AF0000196C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC5AA2F255962D400D95137 /* CareKit in Frameworks */,
+				0CC5AA35255962D500D95137 /* CareKitUI in Frameworks */,
+				0CC5AA33255962D500D95137 /* CareKitStore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CC5AA2D255962D400D95137 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0CEB7B90255883AB0000196C = {
+			isa = PBXGroup;
+			children = (
+				0CEB7B9B255883AC0000196C /* Slask */,
+				0CEB7BAC255883AE0000196C /* Slask WatchKit App */,
+				0CEB7BB8255883AF0000196C /* Slask WatchKit Extension */,
+				0CEB7B9A255883AC0000196C /* Products */,
+				0CC5AA2D255962D400D95137 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0CEB7B9A255883AC0000196C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CEB7B99255883AC0000196C /* Slask.app */,
+				0CEB7BA8255883AE0000196C /* Slask WatchKit App.app */,
+				0CEB7BB4255883AF0000196C /* Slask WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CEB7B9B255883AC0000196C /* Slask */ = {
+			isa = PBXGroup;
+			children = (
+				0CEB7B9C255883AC0000196C /* SlaskApp.swift */,
+				0CEB7B9E255883AC0000196C /* ContentView.swift */,
+				0CEB7BA0255883AE0000196C /* Assets.xcassets */,
+				0CEB7BA5255883AE0000196C /* Info.plist */,
+				0CEB7BA2255883AE0000196C /* Preview Content */,
+			);
+			path = Slask;
+			sourceTree = "<group>";
+		};
+		0CEB7BA2255883AE0000196C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0CEB7BA3255883AE0000196C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0CEB7BAC255883AE0000196C /* Slask WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				0CEB7BAD255883AF0000196C /* Assets.xcassets */,
+				0CEB7BAF255883AF0000196C /* Info.plist */,
+			);
+			path = "Slask WatchKit App";
+			sourceTree = "<group>";
+		};
+		0CEB7BB8255883AF0000196C /* Slask WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0CEB7BB9255883AF0000196C /* SlaskApp.swift */,
+				0CEB7BBB255883AF0000196C /* ContentView.swift */,
+				0CEB7BBD255883AF0000196C /* NotificationController.swift */,
+				0CEB7BBF255883AF0000196C /* NotificationView.swift */,
+				0CEB7BC1255883AF0000196C /* ComplicationController.swift */,
+				0CEB7BC3255883B00000196C /* Assets.xcassets */,
+				0CEB7BC8255883B00000196C /* Info.plist */,
+				0CEB7BC9255883B00000196C /* PushNotificationPayload.apns */,
+				0CEB7BC5255883B00000196C /* Preview Content */,
+			);
+			path = "Slask WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		0CEB7BC5255883B00000196C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0CEB7BC6255883B00000196C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CEB7B98255883AC0000196C /* Slask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CEB7BD4255883B00000196C /* Build configuration list for PBXNativeTarget "Slask" */;
+			buildPhases = (
+				0CEB7B95255883AC0000196C /* Sources */,
+				0CEB7B96255883AC0000196C /* Frameworks */,
+				0CEB7B97255883AC0000196C /* Resources */,
+				0CEB7BD3255883B00000196C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CEB7BAB255883AE0000196C /* PBXTargetDependency */,
+			);
+			name = Slask;
+			packageProductDependencies = (
+				0CC5AA22255962BC00D95137 /* CareKitFHIR */,
+				0CC5AA24255962BC00D95137 /* CareKit */,
+				0CC5AA26255962BC00D95137 /* CareKitStore */,
+				0CC5AA28255962BC00D95137 /* CareKitUI */,
+			);
+			productName = Slask;
+			productReference = 0CEB7B99255883AC0000196C /* Slask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CEB7BA7255883AE0000196C /* Slask WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CEB7BD0255883B00000196C /* Build configuration list for PBXNativeTarget "Slask WatchKit App" */;
+			buildPhases = (
+				0CEB7BA6255883AE0000196C /* Resources */,
+				0CEB7BCF255883B00000196C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CEB7BB7255883AF0000196C /* PBXTargetDependency */,
+			);
+			name = "Slask WatchKit App";
+			productName = "Slask WatchKit App";
+			productReference = 0CEB7BA8255883AE0000196C /* Slask WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		0CEB7BB3255883AF0000196C /* Slask WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CEB7BCC255883B00000196C /* Build configuration list for PBXNativeTarget "Slask WatchKit Extension" */;
+			buildPhases = (
+				0CEB7BB0255883AF0000196C /* Sources */,
+				0CEB7BB1255883AF0000196C /* Frameworks */,
+				0CEB7BB2255883AF0000196C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Slask WatchKit Extension";
+			packageProductDependencies = (
+				0CC5AA2E255962D400D95137 /* CareKit */,
+				0CC5AA32255962D500D95137 /* CareKitStore */,
+				0CC5AA34255962D500D95137 /* CareKitUI */,
+			);
+			productName = "Slask WatchKit Extension";
+			productReference = 0CEB7BB4255883AF0000196C /* Slask WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CEB7B91255883AB0000196C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					0CEB7B98255883AC0000196C = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					0CEB7BA7255883AE0000196C = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					0CEB7BB3255883AF0000196C = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 0CEB7B94255883AB0000196C /* Build configuration list for PBXProject "Slask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CEB7B90255883AB0000196C;
+			packageReferences = (
+				0CC5AA21255962BC00D95137 /* XCRemoteSwiftPackageReference "CareKit" */,
+			);
+			productRefGroup = 0CEB7B9A255883AC0000196C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CEB7B98255883AC0000196C /* Slask */,
+				0CEB7BA7255883AE0000196C /* Slask WatchKit App */,
+				0CEB7BB3255883AF0000196C /* Slask WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CEB7B97255883AC0000196C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CEB7BA4255883AE0000196C /* Preview Assets.xcassets in Resources */,
+				0CEB7BA1255883AE0000196C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CEB7BA6255883AE0000196C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CEB7BAE255883AF0000196C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CEB7BB2255883AF0000196C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CEB7BC7255883B00000196C /* Preview Assets.xcassets in Resources */,
+				0CEB7BC4255883B00000196C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CEB7B95255883AC0000196C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CEB7B9F255883AC0000196C /* ContentView.swift in Sources */,
+				0CEB7B9D255883AC0000196C /* SlaskApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CEB7BB0255883AF0000196C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CEB7BBE255883AF0000196C /* NotificationController.swift in Sources */,
+				0CEB7BBC255883AF0000196C /* ContentView.swift in Sources */,
+				0CEB7BC2255883AF0000196C /* ComplicationController.swift in Sources */,
+				0CEB7BBA255883AF0000196C /* SlaskApp.swift in Sources */,
+				0CEB7BC0255883AF0000196C /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CEB7BAB255883AE0000196C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CEB7BA7255883AE0000196C /* Slask WatchKit App */;
+			targetProxy = 0CEB7BAA255883AE0000196C /* PBXContainerItemProxy */;
+		};
+		0CEB7BB7255883AF0000196C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CEB7BB3255883AF0000196C /* Slask WatchKit Extension */;
+			targetProxy = 0CEB7BB6255883AF0000196C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CEB7BCA255883B00000196C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0CEB7BCB255883B00000196C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0CEB7BCD255883B00000196C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Slask WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 63UM45383T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Slask WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.carechain.Slask.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		0CEB7BCE255883B00000196C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Slask WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 63UM45383T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Slask WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.carechain.Slask.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Release;
+		};
+		0CEB7BD1255883B00000196C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63UM45383T;
+				IBSC_MODULE = Slask_WatchKit_Extension;
+				INFOPLIST_FILE = "Slask WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = io.carechain.Slask.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		0CEB7BD2255883B00000196C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63UM45383T;
+				IBSC_MODULE = Slask_WatchKit_Extension;
+				INFOPLIST_FILE = "Slask WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = io.carechain.Slask.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Release;
+		};
+		0CEB7BD5255883B00000196C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Slask/Preview Content\"";
+				DEVELOPMENT_TEAM = 63UM45383T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Slask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.carechain.Slask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0CEB7BD6255883B00000196C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Slask/Preview Content\"";
+				DEVELOPMENT_TEAM = 63UM45383T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Slask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.carechain.Slask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CEB7B94255883AB0000196C /* Build configuration list for PBXProject "Slask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CEB7BCA255883B00000196C /* Debug */,
+				0CEB7BCB255883B00000196C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CEB7BCC255883B00000196C /* Build configuration list for PBXNativeTarget "Slask WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CEB7BCD255883B00000196C /* Debug */,
+				0CEB7BCE255883B00000196C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CEB7BD0255883B00000196C /* Build configuration list for PBXNativeTarget "Slask WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CEB7BD1255883B00000196C /* Debug */,
+				0CEB7BD2255883B00000196C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CEB7BD4255883B00000196C /* Build configuration list for PBXNativeTarget "Slask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CEB7BD5255883B00000196C /* Debug */,
+				0CEB7BD6255883B00000196C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0CC5AA21255962BC00D95137 /* XCRemoteSwiftPackageReference "CareKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/carekit-apple/CareKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0CC5AA22255962BC00D95137 /* CareKitFHIR */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CC5AA21255962BC00D95137 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKitFHIR;
+		};
+		0CC5AA24255962BC00D95137 /* CareKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CC5AA21255962BC00D95137 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKit;
+		};
+		0CC5AA26255962BC00D95137 /* CareKitStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CC5AA21255962BC00D95137 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKitStore;
+		};
+		0CC5AA28255962BC00D95137 /* CareKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CC5AA21255962BC00D95137 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKitUI;
+		};
+		0CC5AA2E255962D400D95137 /* CareKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CC5AA21255962BC00D95137 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKit;
+		};
+		0CC5AA32255962D500D95137 /* CareKitStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CC5AA21255962BC00D95137 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKitStore;
+		};
+		0CC5AA34255962D500D95137 /* CareKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CC5AA21255962BC00D95137 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKitUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0CEB7B91255883AB0000196C /* Project object */;
+}
